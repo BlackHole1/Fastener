@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "sources": [
+        "..\\..\\..\\src\\common\\bootstrap\\global.js"
+    ],
+    "names": [],
+    "mappings": "AAAA;;;;;AAKA",
+    "file": "..\\..\\..\\src\\common\\bootstrap\\global.js",
+    "sourcesContent": [
+        "/**\n * this file will be loaded before server started\n * you can define global functions used in controllers, models, templates\n */\n\n/**\n * use global.xxx to define global functions\n * \n * global.fn1 = function(){\n *     \n * }\n */"
+    ]
+}
