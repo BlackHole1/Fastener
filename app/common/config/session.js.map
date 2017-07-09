@@ -10,16 +10,11 @@
         "timeout",
         "cookie",
         "length",
-        "httponly",
-        "adapter",
-        "file",
-        "path",
-        "think",
-        "RUNTIME_PATH"
+        "httponly"
     ],
-    "mappings": "AAAA;;AAEA;;;;;kBAGe;AACbA,QAAM,SADO;AAEbC,QAAM,MAFO;AAGbC,UAAQ,UAHK;AAIbC,WAAS,KAAK,IAJD;AAKbC,UAAQ,EAAE;AACRC,YAAQ,EADF;AAENC,cAAU;AAFJ,GALK;AASbC,WAAS;AACPC,UAAM;AACJC,YAAMC,MAAMC,YAAN,GAAqB;AADvB;AADC;AATI,C",
+    "mappings": "AAAA;;AAEA;;;;;kBAGe;AACbA,QAAM,UADO;AAEbC,QAAM,IAFO;AAGbC,UAAQ,EAHK;AAIbC,WAAS,KAAK,IAJD;AAKbC,UAAQ;AACNC,YAAQ,EADF;AAENC,cAAU;AAFJ;AALK,C",
     "file": "..\\..\\..\\src\\common\\config\\session.js",
     "sourcesContent": [
-        "'use strict';\n\n/**\n * session configs\n */\nexport default {\n  name: 'thinkjs',\n  type: 'file',\n  secret: '2HE7IT5#',\n  timeout: 24 * 3600,\n  cookie: { // cookie options\n    length: 32,\n    httponly: true\n  },\n  adapter: {\n    file: {\n      path: think.RUNTIME_PATH + '/session',\n    }\n  }\n};"
+        "'use strict';\n\n/**\n * session configs\n */\nexport default {\n  name: 'fastener',\n  type: 'db',\n  secret: '',\n  timeout: 24 * 3600,\n  cookie: {\n    length: 32,\n    httponly: true\n  }\n};"
     ]
 }

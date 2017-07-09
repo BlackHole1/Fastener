@@ -3,10 +3,12 @@
     "sources": [
         "..\\..\\..\\src\\common\\config\\config.js"
     ],
-    "names": [],
-    "mappings": "AAAA;AACA;;;;;kBAGe;AACb;AADa,C",
+    "names": [
+        "default_module"
+    ],
+    "mappings": "AAAA;AACA;;;;;kBAGe;AACbA,kBAAgB;AADH,C",
     "file": "..\\..\\..\\src\\common\\config\\config.js",
     "sourcesContent": [
-        "'use strict';\n/**\n * config\n */\nexport default {\n  //key: value\n};"
+        "'use strict';\n/**\n * config\n */\nexport default {\n  default_module: 'main'\n};"
     ]
 }

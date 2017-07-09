@@ -12,6 +12,6 @@
     "mappings": "AAAA;AACA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAME;;;;mBAIAA,W,0BAAa,CAEZ,C;;;EAP0BC,MAAMC,KAAN,CAAYC,I",
     "file": "..\\..\\..\\src\\home\\logic\\index.js",
     "sourcesContent": [
-        "'use strict';\n/**\n * logic\n * @param  {} []\n * @return {}     []\n */\nexport default class extends think.logic.base {\n  /**\n   * index action logic\n   * @return {} []\n   */\n  indexAction(){\n   \n  }\n}"
+        "'use strict';\n/**\n * logic\n * @param  {} []\n * @return {}     []\n */\nexport default class extends think.logic.base {\n  /**\n   * index action logic\n   * @return {} []\n   */\n  indexAction(){\n\n  }\n}"
     ]
 }

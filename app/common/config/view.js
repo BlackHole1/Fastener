@@ -11,7 +11,9 @@ exports.default = {
   file_depr: '_',
   root_path: think.ROOT_PATH + '/view',
   adapter: {
-    ejs: {}
+    ejs: {
+      delimiter: '?'
+    }
   }
 };
 //# sourceMappingURL=view.js.map

@@ -5,6 +5,6 @@
 
 exports.__esModule = true;
 exports.default = {
-  //key: value
+  default_module: 'main'
 };
 //# sourceMappingURL=config.js.map

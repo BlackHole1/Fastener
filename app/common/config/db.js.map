@@ -5,20 +5,19 @@
     ],
     "names": [
         "type",
+        "log_sql",
+        "log_connect",
         "adapter",
-        "mysql",
+        "mongo",
         "host",
         "port",
         "database",
-        "user",
-        "password",
         "prefix",
-        "encoding",
-        "mongo"
+        "encoding"
     ],
-    "mappings": "AAAA;AACA;;;;;;kBAIe;AACbA,QAAM,OADO;AAEbC,WAAS;AACPC,WAAO;AACLC,YAAM,WADD;AAELC,YAAM,EAFD;AAGLC,gBAAU,EAHL;AAILC,YAAM,EAJD;AAKLC,gBAAU,EALL;AAMLC,cAAQ,EANH;AAOLC,gBAAU;AAPL,KADA;AAUPC,WAAO;AAVA;AAFI,C",
+    "mappings": "AAAA;AACA;;;;;;kBAIe;AACbA,QAAM,OADO;AAEbC,WAAS,IAFI;AAGbC,eAAa,IAHA;AAIbC,WAAS;AACPC,WAAM;AACJC,YAAM,WADF;AAEJC,YAAM,OAFF;AAGJC,gBAAU,UAHN;AAIJC,cAAQ,WAJJ;AAKJC,gBAAU;AALN;AADC;AAJI,C",
     "file": "..\\..\\..\\src\\common\\config\\db.js",
     "sourcesContent": [
-        "'use strict';\n/**\n * db config\n * @type {Object}\n */\nexport default {\n  type: 'mysql',\n  adapter: {\n    mysql: {\n      host: '127.0.0.1',\n      port: '',\n      database: '',\n      user: '',\n      password: '',\n      prefix: '',\n      encoding: 'utf8'\n    },\n    mongo: {\n\n    }\n  }\n};"
+        "'use strict';\n/**\n * db config\n * @type {Object}\n */\nexport default {\n  type: 'mongo',\n  log_sql: true,\n  log_connect: true,\n  adapter: {\n    mongo:{\n      host: '127.0.0.1',\n      port: '27017',\n      database: 'fastener',\n      prefix: 'fastener_',\n      encoding: 'utf8'\n    }\n  }\n};"
     ]
 }

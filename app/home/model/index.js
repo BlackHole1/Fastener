@@ -19,16 +19,16 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _class = function (_think$model$base) {
-  (0, _inherits3.default)(_class, _think$model$base);
+var _class = function (_think$model$mongo) {
+  (0, _inherits3.default)(_class, _think$model$mongo);
 
   function _class() {
     (0, _classCallCheck3.default)(this, _class);
-    return (0, _possibleConstructorReturn3.default)(this, _think$model$base.apply(this, arguments));
+    return (0, _possibleConstructorReturn3.default)(this, _think$model$mongo.apply(this, arguments));
   }
 
   return _class;
-}(think.model.base);
+}(think.model.mongo);
 
 exports.default = _class;
 //# sourceMappingURL=index.js.map

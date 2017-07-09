@@ -18,6 +18,10 @@ var _base = require('./base.js');
 
 var _base2 = _interopRequireDefault(_base);
 
+var _svgCaptcha = require('svg-captcha');
+
+var _svgCaptcha2 = _interopRequireDefault(_svgCaptcha);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _class = function (_Base) {
@@ -33,7 +37,6 @@ var _class = function (_Base) {
    * @return {Promise} []
    */
   _class.prototype.indexAction = function indexAction() {
-    //auto render template file index_index.html
     return this.display();
   };
 
